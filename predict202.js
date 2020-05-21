@@ -36,7 +36,7 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel("model_master/model.json");
+	model = await tf.loadModel("tfjs_models/model_master/model.json");
 	$("#selected-image").attr("src", "")
 	
 	
